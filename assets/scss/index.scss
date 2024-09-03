@@ -1,0 +1,43 @@
+@use "element-plus/theme-chalk/src/dark/css-vars.scss" as *;
+
+h3, h4 {
+  margin: 0;
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  line-height: var(--el-font-line-height-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+
+  button {
+    font-family: inherit;
+  }
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.el-tag {
+  font-weight: var(--el-font-weight-primary);
+} 
+
+.flex-grow {
+  flex-grow: 1;
+}
+
